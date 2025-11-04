@@ -1,0 +1,79 @@
+/* Styling for the login form container */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.register-page {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for form headers */
+.register-form h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.register-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Input field styling */
+.register-page .register-form input {
+  background-color: #373737 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 6px;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.register-form button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.register-form button:hover {
+  background-color: #333;
+}
+
+/* Link to sign up page */
+.register-form p {
+  font-size: 14px;
+  color: #777;
+}
+
+.register-form a {
+  color: #fff;
+}
+
+.register-form a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,132 @@
+/* General Reset */
+
+/* Navbar Styling */
+.navbar {
+  background-color: #000000; /* Dark background for the navbar */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin: 0;
+  font-size: 2rem;
+  color: #ccc;
+}
+
+.tagline {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+.nav-button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #333;
+}
+
+/* Dropdown Styling */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.dropbtn:hover {
+  background-color: #000000;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 150px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content .dropdown-item {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content .dropdown-item:hover {
+  background-color: #575757;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.register,
+.login {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  width: 60px;
+  text-align: center;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: row;
+    gap: 10px;
+  }
+}

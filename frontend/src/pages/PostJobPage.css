@@ -1,0 +1,83 @@
+/* Styling for the login form container */
+.post-job-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 40px;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.post-job-page {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+}
+
+.post-job-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for form headers */
+.post-job-form h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.post-job-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Input field styling */
+.post-job-form input,
+textarea,
+select {
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ddd;
+  background-color: #333;
+  color:#ddd;
+  border-radius: 5px;
+}
+
+/* Button styling */
+.post-job-form button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.post-job-form button:hover {
+  background-color: #333;
+}
+
+/* Link to sign up page */
+.post-job-form p {
+  font-size: 14px;
+  color: #777;
+}
+
+.post-job-form a {
+  color: #000000;
+}
+
+.post-job-form a:hover {
+  text-decoration: underline;
+}

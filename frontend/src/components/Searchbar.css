@@ -1,0 +1,119 @@
+/* Container for the entire search bar section */
+.searchbar-container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Header style */
+.searchbar-header {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  width: 100%;
+  max-width: 700px; /* Optional: To limit the width of the header */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Title style */
+.searchbar-title {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Search bar container */
+.searchbar-input-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Input field styling (make them smaller and same size as category dropdown) */
+.searchbar-input {
+  padding: 8px;
+  font-size: 0.9rem;
+  width: 220px; /* Same width as category dropdown */
+  border: 1px solid #ccc;
+  background-color: #333;
+  color: #7a7777;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+/* Style for the dropdown when it is focused */
+.searchbar-input:focus {
+  outline: none;
+  border-color: #000000; /* Change border color on focus */
+}
+
+/* Button styling (change shape) */
+.searchbar-button{
+  margin: 10px 0px;
+  text-decoration: none;
+  background-color: #000;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.searchbar-button:hover {
+  background-color: #333;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .searchbar-header {
+    padding: 15px;
+  }
+
+  .searchbar-input {
+    width: 200px; /* Slightly smaller on smaller screens */
+  }
+
+  .searchbar-button {
+    font-size: 0.9rem;
+  }
+}
+
+/* Style for the category dropdown */
+.searchbar-input.category-dropdown {
+  padding: 8px; /* Same padding as other inputs */
+  font-size: 0.9rem;
+  width: 220px; /* Same width as other inputs */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+/* Style for the dropdown when it is focused */
+/*
+.searchbar-input.category-dropdown:focus {
+  outline: none;
+  border-color: #007bff;  Change border color on focus 
+}
+*/
+/* Style for the dropdown's options */
+/* .searchbar-input.category-dropdown option {
+  padding: 8px;
+  font-size: 0.9rem;
+} */
+
+/* Style for the dropdown container */
+/* .searchbar-input.category-dropdown { */
+ /*  background-color: #333; White background for dropdown */
+  /* color: #978c8c; Dark text color */
+/* } */
+
+/* Change the color and background on hover for options */
+/* .searchbar-input.category-dropdown option:hover {
+  background-color: #007bff;
+  color: #a19797;
+} */

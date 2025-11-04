@@ -1,0 +1,94 @@
+/* General container for all applicant details */
+.applicant-details-container {
+    margin: 20px;
+  }
+  
+  /* Heading for applicant section */
+  .applicant-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the list of applicants */
+  .applicant-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Styling for each applicant's card */
+  .applicant-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for applicant information */
+  .applicant-info {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for job information */
+  .job-info {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for application details */
+  .application-info {
+    margin-bottom: 20px;
+  }
+  
+  /* Common styling for section headings */
+  .section-heading {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for cover letter */
+  .cover-letter {
+    font-style: italic;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Actions container (e.g., download resume button) */
+  .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling for download resume button */
+  .download-resume-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-resume-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for loading state */
+  .loading-indicator {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Styling for error messages */
+  .error-message {
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    padding: 20px;
+  }
+  
